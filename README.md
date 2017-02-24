@@ -1,5 +1,5 @@
 # donation_button
-This Python script was a quick-and-dirty solution to build an Amazon Dash button that would donate to the ACLU through the page https://action.aclu.org/donate-aclu
+This Python script is built upon [this quick-and-dirty solution] https://github.com/nathanpryor/donation_button to build an Amazon Dash button that would donate to Planned Parenthood through the page https://secure.ppaction.org/site/Donation2?df_id=12913&12913.donation=form1
 
 The script requires the Mechanize library (http://wwwsearch.sourceforge.net/mechanize/).
 
@@ -12,4 +12,6 @@ It's set up to be run on Amazon's AWS Lambda service, with the credit card info 
 	CC_CSC
 If you're not doing that, go ahead and put them in as strings.
 
-Note that the state and country menus use numeric codes rather than abbreviations. See the file country_and_state_codes.txt for the select menus from the page so you can find the appropriate value and enter it.
+See the file country_and_state_codes.txt for the exact state and country syntax.
+
+An Illustrator file is also attached with art and a cut path separated into layers to produce your own sticker.
